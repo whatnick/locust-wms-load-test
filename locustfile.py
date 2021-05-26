@@ -350,8 +350,8 @@ def getRandomGetMapRequest(allLayers:dict, wmsversion:str):
         "request": "GetMap",
         crsparamname: "EPSG:4326",
         "layers": randomLayer["name"],
-        "width": 1200,
-        "height": 600,
+        "width": 256,
+        "height": 256,
         "format": "image/png",
         "bbox": randomBbox,
     }
